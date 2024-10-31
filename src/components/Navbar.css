@@ -1,0 +1,44 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282c34; /* Color de fondo */
+    padding: 15px; /* Espaciado interno */
+    color: white; /* Color del texto */
+}
+
+.logo h1 {
+    margin: 0; /* Eliminar margen */
+}
+
+ul {
+    list-style: none; /* Sin puntos de lista */
+    display: flex; /* Alinear los elementos en una fila */
+    margin: 0; /* Eliminar margen */
+    padding: 0; /* Eliminar padding */
+}
+
+ul li {
+    margin-left: 20px; /* Espaciado entre elementos de la lista */
+}
+
+ul li a {
+    color: white; /* Color del texto de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: bold; /* Texto en negrita */
+}
+
+ul li a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+}
+
+.cart {
+    display: flex; /* Alinear icono del carrito y cantidad */
+    align-items: center;
+}
+
+.cart img {
+    width: 30px; /* Tamaño del icono */
+    height: 30px; /* Tamaño del icono */
+    margin-right: 5px; /* Espaciado entre icono y cantidad */
+}
